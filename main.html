@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* CSS styles for the table */
+      table {
+        width: 100%;
+        background-color: yellow;
+        border-collapse: collapse;
+      }
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+      th, td {
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+      }
 
-</body>
-
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <table>
+      <caption>Student Details</caption>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>AGE</th>
+          <th>BRANCH</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pooja</td>
+          <td>25</td>
+          <td>CS</td>
+        </tr>
+        <tr>
+          <td>Kajal</td>
+          <td>20</td>
+          <td>EEE</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
 </html>
