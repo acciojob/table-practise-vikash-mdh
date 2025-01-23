@@ -1,56 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, World!</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
     <style>
-      /* CSS styles for the table */
-      table {
-        width: 100%;
-        background-color: yellow; /* Set table background color */
-        border-collapse: collapse; /* Collapse table borders for neat appearance */
-      }
-
-      caption {
-        font-weight: bold;
-        margin-bottom: 10px; /* Add space below the caption */
-        font-size: 18px;
-      }
-
-      th, td {
-        border: 1px solid black; /* Add a black border to table cells */
-        text-align: left; /* Align text to the left */
-        padding: 8px; /* Add padding for readability */
-      }
-
-      th {
-        background-color: #f2f2f2; /* Light gray background for headers */
-      }
+        table {
+            width: 100%;
+            background-color: yellow;
+            border-collapse: collapse;
+        }
+        table, th, tr, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
     </style>
-  </head>
-  <body>
-    <h3>Student Details</h3>
+</head>
+<body>
     <table>
-      <caption>Student Details</caption> <!-- Table caption -->
-      <thead>
-        <tr>
-          <th>NAME</th> <!-- Header for Name -->
-          <th>AGE</th>  <!-- Header for Age -->
-          <th>BRANCH</th> <!-- Header for Branch -->
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Pooja</td> <!-- Name -->
-          <td>25</td>    <!-- Age -->
-          <td>CS</td>    <!-- Branch -->
-        </tr>
-        <tr>
-          <td>Kajal</td> <!-- Name -->
-          <td>20</td>    <!-- Age -->
-          <td>EEE</td>   <!-- Branch -->
-        </tr>
-      </tbody>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>22</td>
+                <td>Mechanical Engineering</td>
+            </tr>
+            <tr>
+                <td>Robert Brown</td>
+                <td>19</td>
+                <td>Electrical Engineering</td>
+            </tr>
+        </tbody>
     </table>
-  </body>
+</body>
 </html>
-
